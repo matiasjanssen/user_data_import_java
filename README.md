@@ -1,6 +1,6 @@
 # Users_Import_Java
 
-This is a Java client that consolidates user data from two different files, validates userid interacting with the [Piano](https://piano.io/) Publisher API and finally creates an output file.
+This is a java client that consolidates user data from two different files, validates userid interacting with the [Piano](https://piano.io/) Publisher API and finally creates an output file.
 
 
 ## 📌 Features
@@ -12,22 +12,15 @@ This is a Java client that consolidates user data from two different files, vali
 - Creates an output file (users_output.csv)
 
 
----
-
-## 📦 Dependencies
-
-This project requires the following libraries:
+## 🛠️ Tech Stack
 
 - `com.opencsv:opencsv:5.7.1`
 - `com.fasterxml.jackson.core:jackson-databind:2.13.3`
 
 You can include them via Maven or download the JARs and add them to your classpath.
 
----
+Maven `pom.xml` Snippet
 
-### 🛠️ Maven `pom.xml` Snippet
-
-```xml
 <dependencies>
     <dependency>
         <groupId>com.opencsv</groupId>
@@ -40,7 +33,6 @@ You can include them via Maven or download the JARs and add them to your classpa
         <version>2.13.3</version>
     </dependency>
 </dependencies>
-
 
 ## 📦 Installation
 
@@ -67,5 +59,4 @@ Then compile and run:
 javac -cp "lib/*" Users_Import_Java.java
 java -cp ".:lib/*" Users_Import_Java
 📝 Replace lib/* with the actual path where your JAR files are stored.
-
 
