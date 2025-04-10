@@ -19,20 +19,6 @@ This is a java client that consolidates user data from two different files, vali
 
 You can include them via Maven or download the JARs and add them to your classpath.
 
-Maven `pom.xml` Snippet
-
-<dependencies>
-    <dependency>
-        <groupId>com.opencsv</groupId>
-        <artifactId>opencsv</artifactId>
-        <version>5.7.1</version>
-    </dependency>
-    <dependency>
-        <groupId>com.fasterxml.jackson.core</groupId>
-        <artifactId>jackson-databind</artifactId>
-        <version>2.13.3</version>
-    </dependency>
-</dependencies>
 
 ## 📦 Installation
 
